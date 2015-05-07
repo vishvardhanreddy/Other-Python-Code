@@ -1,0 +1,32 @@
+#NodeName,Shelf/Slot/Port,Equipment(Type),Wavelength(Lambda),Origin(Flag),Parameter,ANS Value,CTP Value,DHI
+Site1,1.0/1.0/6.0,LINE(40-SMR2-C) (DROP TX),,IMPORTED,Channel Power,-10.0,-10.6,YELLOW
+Site1,1.0/1.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Min Expected Span Loss,10.1,14.5,RED
+Site1,1.0/1.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Max Expected Span Loss,11.1,15.5,RED
+Site1,1.0/1.0/9.0,LINE(40-SMR2-C) (EXP TX 1-1),,IMPORTED,Tilt,-0.4,-0.2,YELLOW
+Site1,1.0/17.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Min Expected Span Loss,11.3,14.5,RED
+Site1,1.0/17.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Max Expected Span Loss,12.3,15.5,RED
+Site1,2.0/1.0/6.0,LINE(40-SMR2-C) (DROP TX),,IMPORTED,Channel Power,-10.1,-10.0,YELLOW
+Site1,2.0/1.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Min Expected Span Loss,0.2,0.0,YELLOW
+Site1,2.0/1.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Max Expected Span Loss,1.2,0.8,YELLOW
+Site1,2.0/1.0/9.0,LINE(40-SMR2-C) (EXP TX 1-1),,IMPORTED,Tilt,1.9,-0.0,RED
+Site1,2.0/17.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Min Expected Span Loss,0.1,0.0,YELLOW
+Site1,2.0/17.0/7.0,LINE(40-SMR2-C) (LINE RX),,PROV,Max Expected Span Loss,1.1,0.8,YELLOW
+Site2,1.0/1.0/9.0,LINE(40-SMR1-C) (LINE RX),,PROV,Min Expected Span Loss,10.2,14.5,RED
+Site2,1.0/1.0/9.0,LINE(40-SMR1-C) (LINE RX),,PROV,Max Expected Span Loss,11.2,15.5,RED
+Site2,1.0/17.0/5.0,LINE(OPT-AMP-17-C) (LINE RX),,PROV,Min Expected Span Loss,10.1,14.5,RED
+Site2,1.0/17.0/5.0,LINE(OPT-AMP-17-C) (LINE RX),,PROV,Max Expected Span Loss,11.1,15.5,RED
+Site3,1.0/2.0/1.0,LINE(OPT-EDFA-24) (COM RX),,PROV,Channel LOS Threshold,-27.8,-27.9,YELLOW
+Site3,1.0/2.0/5.0,LINE(OPT-EDFA-24) (LINE RX),,PROV,Min Expected Span Loss,10.2,14.5,RED
+Site3,1.0/2.0/5.0,LINE(OPT-EDFA-24) (LINE RX),,PROV,Max Expected Span Loss,11.2,15.5,RED
+Site3,2.0/2.0/5.0,LINE(OPT-EDFA-24) (LINE RX),,PROV,Min Expected Span Loss,10.1,14.5,RED
+Site3,2.0/2.0/5.0,LINE(OPT-EDFA-24) (LINE RX),,PROV,Max Expected Span Loss,11.1,15.5,RED
+Site3,3.0/2.0/4.0,LINE(OSC-CSM) (LINE RX),,PROV,Max Expected Span Loss,1.0,0.8,YELLOW
+Site3,4.0/2.0/4.0,LINE(OSC-CSM) (LINE RX),,PROV,Min Expected Span Loss,0.4,0.0,YELLOW
+Site3,4.0/2.0/4.0,LINE(OSC-CSM) (LINE RX),,PROV,Max Expected Span Loss,1.4,0.8,YELLOW
+Site4,1.0/2.0/5.0,LINE(OPT-EDFA-24) (LINE RX),,PROV,Min Expected Span Loss,10.2,14.5,RED
+Site4,1.0/2.0/5.0,LINE(OPT-EDFA-24) (LINE RX),,PROV,Max Expected Span Loss,11.2,15.5,RED
+Site5,1.0/7.0/7.0,LINE(40-SMR1-C) (ADD RX),,IMPORTED,Channel LOS Threshold,-10.3,-10.3,RED
+Site5,1.0/7.0/9.0,LINE(40-SMR1-C) (LINE RX),,PROV,Min Expected Span Loss,12.4,14.5,RED
+Site5,1.0/7.0/9.0,LINE(40-SMR1-C) (LINE RX),,PROV,Max Expected Span Loss,13.4,15.5,RED
+Site6,1.0/2.0/4.0,LINE(OSC-CSM) (LINE RX),,PROV,Min Expected Span Loss,0.2,0.0,YELLOW
+Site6,1.0/2.0/4.0,LINE(OSC-CSM) (LINE RX),,PROV,Max Expected Span Loss,1.2,0.8,YELLOW
